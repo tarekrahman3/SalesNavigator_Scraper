@@ -20,6 +20,7 @@ def scroll(driver):
 	for i in range(5):
 		driver.execute_script('window.scrollBy(0,window.innerHeight)')
 		time.sleep(2)
+
 def get_name(driver, name_id):
 	return driver.execute_script(f"return document.getElementById('{name_id}').innerText")
 
