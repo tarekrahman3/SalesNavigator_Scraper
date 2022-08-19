@@ -1,3 +1,5 @@
+# Author: Tarek R.
+
 import undetected_chromedriver.v2 as uc
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
