@@ -8,9 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 import pandas as pd
-options = uc.ChromeOptions()
-options.user_data_dir = "chrome_profile"
-driver = uc.Chrome(options=options)
+driver = uc.Chrome()
 
 def scroll(driver):
 	for i in range(5):
